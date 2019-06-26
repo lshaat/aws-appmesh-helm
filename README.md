@@ -17,7 +17,7 @@ It will setup:
  - Automatic injection of the AWS App Mesh sidecar (envoy) (via [github.com/aws/aws-appmesh-inject](https://github.com/aws/aws-app-mesh-inject)) 
  - A Kubernetes controller that automatically managed AWS App Mesh resources ([github.com/aws/aws-app-mesh-controller-for-k8s](https://github.com/aws/aws-app-mesh-controller-for-k8s))
  - Automatic injection of the AWS X-Ray sidecar
- - Preconfigured Prometheus and Grafana dashboards for AWS App Mesh ([github.com/PaulMaddox/aws-appmesh-grafana](https://github.com/PaulMaddox/aws-appmesh-grafana))
+ - Preconfigured Prometheus and Grafana dashboards for AWS App Mesh ([github.com/lshaat/aws-appmesh-grafana](https://github.com/PaulMaddox/aws-appmesh-grafana))
 
 ## Deploy an EKS cluster
 
