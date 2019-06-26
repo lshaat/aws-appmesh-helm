@@ -17,7 +17,7 @@ It will setup:
  - Automatic injection of the AWS App Mesh sidecar (envoy) (via [github.com/aws/aws-appmesh-inject](https://github.com/aws/aws-app-mesh-inject)) 
  - A Kubernetes controller that automatically managed AWS App Mesh resources ([github.com/aws/aws-app-mesh-controller-for-k8s](https://github.com/aws/aws-app-mesh-controller-for-k8s))
  - Automatic injection of the AWS X-Ray sidecar
- - Preconfigured Prometheus and Grafana dashboards for AWS App Mesh ([github.com/lshaat/aws-appmesh-grafana](https://github.com/PaulMaddox/aws-appmesh-grafana))
+ - Preconfigured Prometheus and Grafana dashboards for AWS App Mesh ([github.com/lshaat/aws-appmesh-grafana](https://github.com/lshaat/aws-appmesh-grafana))
 
 ## Deploy an EKS cluster
 
@@ -64,7 +64,7 @@ ip-192-168-14-229.eu-west-1.compute.internal   Ready    <none>   0d   v1.11.5
 brew install kubernetes-helm
 
 # setup k8s rbac for helm
-kubectl apply -f https://raw.githubusercontent.com/PaulMaddox/aws-appmesh-helm/master/scripts/helm-rbac.yaml
+kubectl apply -f https://raw.githubusercontent.com/lshaat/aws-appmesh-helm/master/scripts/helm-rbac.yaml
 
 # depoy helm into the cluster
 helm init --service-account tiller
