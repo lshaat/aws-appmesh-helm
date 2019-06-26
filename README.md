@@ -75,7 +75,7 @@ helm init --service-account tiller
 Deploy AWS App Mesh. This will deploy a mutating webhook admission controller to automatically inject all of your containers with an envoy sidecar, AWS X-Ray integration, and a StatsD exporter for prometheus metrics.
 
 ```bash
-helm install -n aws-appmesh --namespace appmesh-system https://github.com/PaulMaddox/aws-appmesh-helm/releases/latest/download/aws-appmesh.tgz
+helm install -n aws-appmesh --namespace appmesh-system https://github.com/lshaat/aws-appmesh-helm/releases/latest/download/aws-appmesh.tgz
 ```
 
 Confirm the AWS App Mesh pods are up and running with `kubectl get pods -n appmesh-system`. The output should look similar to below:
